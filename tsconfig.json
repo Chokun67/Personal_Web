@@ -1,0 +1,13 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" },
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",           // ทำให้ paths เริ่มจาก root โปรเจกต์
+    "paths": {
+      "@/*": ["src/*"]        // กำหนดให้ @ ชี้ไปที่โฟลเดอร์ src/
+    }
+  }
+}
