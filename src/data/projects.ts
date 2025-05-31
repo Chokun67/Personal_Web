@@ -4,7 +4,6 @@ import springEcomImage from '@/assets/image/projects/spring.png';
 import reservationImage from '@/assets/image/projects/reservation.png';
 import rewardAppImage from '@/assets/image/projects/rewardpoint.png';
 import catverse from '@/assets/image/projects/catverse.png'
-import exp from '@/assets/image/projects/exp.png'
 export interface ProjectItem {
     id: string;
     title: string;

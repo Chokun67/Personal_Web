@@ -20,7 +20,7 @@ const SkillsSection = () => (
                 {skillCards.map(({ title, icon: Icon, skills }) => (
                     <Card
                         key={title}
-                        className="bg-slate-800/50 border border-slate-700 hover:bg-slate-800/70 transition-all"
+                        className="bg-slate-800/50 border border-slate-700 hover:bg-slate-800/70 hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/10 transition-all duration-300 transform"
                     >
                         <CardHeader>
                             <CardTitle className="text-purple-400 text-xl font-bold flex items-center">

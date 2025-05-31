@@ -18,7 +18,7 @@ const ExperienceSection = () => (
                 {experienceItems.map((item) => {
                     const Icon = item.icon;
                     return (
-                        <Card key={item.id} className="bg-gradient-to-r from-[#2e1a47]/80 to-[#1b1e44]/80 border border-purple-900 text-white shadow-md backdrop-blur-sm">
+                        <Card key={item.id} className="bg-gradient-to-r hover:scale-105 from-[#2e1a47]/80 to-[#1b1e44]/80 border border-purple-900 text-white shadow-md backdrop-blur-sm">
                             <CardHeader>
                                 <div className="flex flex-col md:flex-row md:items-center md:justify-between">
                                     <div className="flex items-center gap-3">
