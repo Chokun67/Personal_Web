@@ -1,3 +1,10 @@
+import socialMediaImage from '@/assets/image/projects/nest.png';
+import expertSystemImage from '@/assets/image/projects/medical.png';
+import springEcomImage from '@/assets/image/projects/spring.png';
+import reservationImage from '@/assets/image/projects/reservation.png';
+import rewardAppImage from '@/assets/image/projects/rewardpoint.png';
+import catverse from '@/assets/image/projects/catverse.png'
+import exp from '@/assets/image/projects/exp.png'
 export interface ProjectItem {
     id: string;
     title: string;
@@ -14,35 +21,8 @@ export const projects: ProjectItem[] = [
         description:
             'Backend built with Nest.js and Passport.js for authentication. Used Sequelize ORM and Swagger for API documentation. Mobile frontend created using Flutter with Bloc.',
         tech: ['NestJS', 'Passport.js', 'Sequelize', 'Flutter', 'Bloc'],
-        image: 'https://images.unsplash.com/photo-1605902711622-cfb43c4437f1?w=400&h=250&fit=crop',
-        link: '#',
-    },
-    {
-        id: 'mern-expert-system',
-        title: 'Medical Expert System',
-        description:
-            'Expert system using the MERN stack with an inference engine. Styled using Tailwind CSS.',
-        tech: ['MongoDB', 'Express.js', 'React', 'Node.js', 'Tailwind CSS'],
-        image: 'https://images.unsplash.com/photo-1618005198919-3c7b598d9893?w=400&h=250&fit=crop',
-        link: '#',
-    },
-    {
-        id: 'spring-ecommerce',
-        title: 'E-Commerce Platform with Java',
-        description:
-            'Built using Java Spring Boot. Secured APIs with JWT. Integrated PostgreSQL with JPA.',
-        tech: ['Java', 'Spring Boot', 'JWT', 'PostgreSQL', 'JPA'],
-        image: 'https://images.unsplash.com/photo-1549921296-3a6b4c8e96d4?w=400&h=250&fit=crop',
-        link: '#',
-    },
-    {
-        id: 'catverse-runner',
-        title: 'Catverse Runner Game',
-        description:
-            '2D endless runner game developed with Flutter and Flame engine. Published on Google Play Store.',
-        tech: ['Flutter', 'Flame Engine', 'Game Dev', 'Google Play'],
-        image: 'https://images.unsplash.com/photo-1610904041859-985a510b9f8e?w=400&h=250&fit=crop',
-        link: 'https://play.google.com/store/apps/details?id=com.choDev.CatRunner',
+        image: socialMediaImage,
+        link: 'https://github.com/Chokun67/Nest-ORM-POST_USER',
     },
     {
         id: 'reservation-bar',
@@ -50,8 +30,8 @@ export const projects: ProjectItem[] = [
         description:
             'Frontend for table reservation platform. Customers and store managers have separate interfaces.',
         tech: ['HTML', 'CSS', 'JavaScript', 'Responsive UI'],
-        image: 'https://images.unsplash.com/photo-1556911220-e15b29be8cfa?w=400&h=250&fit=crop',
-        link: '#',
+        image: reservationImage,
+        link: 'https://github.com/Chokun67/React-ReservationBar',
     },
     {
         id: 'reward-shopping-app',
@@ -59,7 +39,35 @@ export const projects: ProjectItem[] = [
         description: 
         'Developed a Flutter-based mobile shopping app with point accumulation, redemption, cart functionality, and store location display using Flutter Map.',
         tech: ['Flutter', 'Point System', 'Flutter Map'],
-        image: 'https://images.unsplash.com/photo-1580894908361-96719503343d?w=400&h=250&fit=crop',
-        link: '#',
+        image: rewardAppImage,
+        link: 'https://github.com/Chokun67/zeencamp_v2',
     },
+    {
+        id: 'mern-expert-system',
+        title: 'Medical Expert System',
+        description:
+            'Expert system using the MERN stack with an inference engine. Styled using Tailwind CSS.',
+        tech: ['MongoDB', 'Express.js', 'React', 'Node.js', 'Tailwind CSS'],
+        image: expertSystemImage,
+        link: 'https://github.com/Chokun67/MERN-KnowledgeBase',
+    },
+    {
+        id: 'spring-ecommerce',
+        title: 'E-Commerce Platform with Java',
+        description:
+            'Built using Java Spring Boot. Secured APIs with JWT. Integrated PostgreSQL with JPA.',
+        tech: ['Java', 'Spring Boot', 'JWT', 'PostgreSQL', 'JPA'],
+        image: springEcomImage,
+        link: 'https://github.com/Chokun67/JavaSpring_ecommerce',
+    },
+    {
+        id: 'catverse-runner',
+        title: 'Catverse Runner Game',
+        description:
+            '2D endless runner game developed with Flutter and Flame engine. Published on Google Play Store.',
+        tech: ['Flutter', 'Flame Engine', 'Game Dev', 'Google Play'],
+        image: catverse,
+        link: 'https://play.google.com/store/apps/details?id=com.choDev.CatRunner',
+    },
+    
 ];

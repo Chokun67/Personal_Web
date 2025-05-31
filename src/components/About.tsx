@@ -1,7 +1,7 @@
 'use client';
 
 import { MapPin } from 'lucide-react';
-
+import profileImage2 from '@/assets/image/image.png';
 
 const AboutSection = () => (
     <section id="about" className="py-20 px-4 sm:px-6 md:px-12 lg:px-42">
@@ -36,9 +36,9 @@ const AboutSection = () => (
                 <div className="relative">
                     <div className="overflow-hidden rounded-xl border border-slate-700 bg-slate-800/50 hover:shadow-lg transition-all duration-300 transform hover:scale-105">
                         <img
-                            src="https://via.placeholder.com/600x400.png?text=Project+1"
+                            src={profileImage2}
                             alt="Project 1"
-                            className="w-full h-auto max-h-96 object-cover aspect-[3/2]"
+                            className="w-full h-auto max-h-96 object-cover object-[0_18%] aspect-[3/2]"
                         />
                     </div>
                     <div className="absolute -top-4 -right-4 w-8 h-8 bg-purple-500 rounded-full animate-pulse"></div>

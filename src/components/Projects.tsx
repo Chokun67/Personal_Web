@@ -17,8 +17,11 @@ const ProjectsSection = () => (
                 {projects.map((project) => (
                     <div key={project.id} className="group bg-slate-800/50 backdrop-blur-sm rounded-lg overflow-hidden border border-slate-700 hover:border-purple-500 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/10">
                         <div className="relative overflow-hidden">
-                            <img src={project.image} alt={project.title} className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-110" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                            <img
+                                src={project.image}
+                                alt={project.title}
+                                className="w-full h-48 object- transition-transform duration-300 group-hover:scale-110 rounded-t-xl"
+                            />                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                         </div>
                         <div className="p-6">
                             <h3 className="text-xl font-semibold mb-2 group-hover:text-purple-400 transition-colors">{project.title}</h3>
