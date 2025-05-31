@@ -13,4 +13,5 @@ export default defineConfig({
       '@': path.resolve(__dirname, 'src'), // ✅ ให้ @ หมายถึง /src
     },
   },
+  base: process.env.VITE_BASE_PATH ?? "/Personal_Web"
 })
