@@ -21,7 +21,7 @@ const AboutSection = () => (
                 {/* Text Content */}
                 <div className="space-y-6">
                     <p className="text-lg text-gray-300 leading-relaxed">
-                        I'm a final-year Software Engineering student at Srinakharinwirot University with a strong passion for building practical and impactful digital solutions. I enjoy turning ideas into real-world applications through clean and efficient code.
+                        I recently graduated with a degree in Computer Engineering from Srinakharinwirot University with a strong passion for building practical and impactful digital solutions. I enjoy turning ideas into real-world applications through clean and efficient code.
                     </p>
                     <p className="text-lg text-gray-300 leading-relaxed">
                         I’ve worked on various freelance and academic projects, gaining hands-on experience in web and mobile development. I'm always eager to learn new technologies and continuously improve my skills to become a better developer.
